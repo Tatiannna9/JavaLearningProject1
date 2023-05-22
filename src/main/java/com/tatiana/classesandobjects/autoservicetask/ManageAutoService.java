@@ -59,16 +59,16 @@ public class ManageAutoService {
                 " Foloseste electricitate:" + elevatorTool.needsElectricity +
                 " Este utilizat:" + elevatorTool.isUsed);
 
-        Tool hammerDrill = new Tool(true)
+        Tool hammerDrill = new Tool(true);
         hammerDrill.isElevator = false;
         hammerDrill.isUsed = true;
         hammerDrill.needsElectricity = true;
 
         System.out.println("Obiectul hammerDrill  are proprietatile:" +
-                " Cod unic:" + elevatorTool.uniqueCode +
-                " Este elevator:" + elevatorTool.isElevator +
-                " Foloseste electricitate:" + elevatorTool.needsElectricity +
-                " Este utilizat:" + elevatorTool.isUsed);
+                " Cod unic:" + hammerDrill.uniqueCode +
+                " Este elevator:" + hammerDrill.isElevator +
+                " Foloseste electricitate:" + hammerDrill.needsElectricity +
+                " Este utilizat:" + hammerDrill.isUsed);
 
 
         Worker lucratorulValerie = new Worker();
