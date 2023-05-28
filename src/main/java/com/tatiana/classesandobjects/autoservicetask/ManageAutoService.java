@@ -70,21 +70,22 @@ public class ManageAutoService {
                 " Foloseste electricitate:" + hammerDrill.needsElectricity +
                 " Este utilizat:" + hammerDrill.isUsed);
 
+        Worker lucratorulValeri = new Worker();
 
-        Worker lucratorulValerie = new Worker();
-
-        lucratorulValerie.nume = "Valerie";
-        lucratorulValerie.age = 46;
-        lucratorulValerie.sextype = "Masculin";
-        lucratorulValerie.isExperienced = true;
-        lucratorulValerie.specialization = "Electric Auto";
+        lucratorulValeri.nume = "Valerie";
+        lucratorulValeri.age = 46;
+        lucratorulValeri.sextype = "Masculin";
+        lucratorulValeri.isExperienced = true;
+        lucratorulValeri.specialization = "Electric Auto";
 
         System.out.println("Obiectul lucratorulValerie are proprietatile:" +
-                " Nume:" + lucratorulValerie.nume +
-                " Visrta:" + lucratorulValerie.age +
-                " Experienta:" + lucratorulValerie.isExperienced +
-                " Sex type:" + lucratorulValerie.sextype +
-                " Specializare:" + lucratorulValerie.specialization
+                        " Nume:" + lucratorulValeri.nume +
+                        " Visrta:" + lucratorulValeri.age +
+                        " Experienta:" + lucratorulValeri.isExperienced +
+                        " Sex type:" + lucratorulValeri.sextype +
+                        " Specializare:" + lucratorulValeri.specialization
+
+                //teste teste
 
         );
 
